@@ -16,7 +16,11 @@ body {
   margin: auto;
 }
 
-.btn {
+#game-btn{
+  padding: 1rem 2.5rem;
+}
+
+.colored-tiles {
   margin: 1.5rem;
   display: inline-block;
   height: 12.5rem;
@@ -55,42 +59,27 @@ body {
   display: inline-block;
 }
 
-@media screen and (max-width: 1200px) and (min-width: 1025px){
-  .container{
-    width: 60%;
-  }
-  .btn{
-    height: 11.5rem;
-    width:  11.5rem;
-  }
-}
-
-@media screen and (max-width: 1024px) and (min-width: 769px){
-  .container{
-    width: 70%;    
-  }
-  .btn{
-    height: 11rem;
-    width:  11rem;
-  }
-}
-
-@media screen and (max-width: 768px) and (min-width: 481px){
+@media screen and (max-width: 1060px) and (min-width: 769px){
+  #level-title {
+    font-size: 5rem;
+    margin: 3.5rem 5% 3.5rem;
+   }
   .container{
     width: 80%;    
   }
-  .btn{
-    height: 10.5rem;
-    width:  10.5rem;
+  .colored-tiles{
+    height: 11rem;
+    width:  11rem;
   }
 }
 
-@media screen and (max-width: 480px) and (min-width: 320px){
+
+@media screen and (max-width: 769px) and (min-width: 481px){
   .container{
-    width: 90%; 
+    width: 80%;    
   }
-  .btn{
-    height: 11rem;
-    width:  11rem;
+  .colored-tiles{
+    height: 10rem;
+    width:  10rem;
   }
 }
